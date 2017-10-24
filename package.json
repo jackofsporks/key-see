@@ -1,0 +1,21 @@
+{
+  "name": "key-see",
+  "main": "./lib/key-see",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "key-see:toggle"
+  },
+  "repository": "https://github.com/atom/key-see",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "deserializers": {
+    "key-see/KeySeeView": "deserializeKeySeeView"
+  }
+}

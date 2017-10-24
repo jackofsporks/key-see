@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle key-see",
+        "command": "key-see:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "key-see",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "key-see:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
